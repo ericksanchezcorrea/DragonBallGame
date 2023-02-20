@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+
+    <div id="ruler">
+        <input type="button" class="button1" value="Rulers" >
+    </div>
+    <div class="ruler_modal">
+        <div>
+            <p>To move left press "a"</p>
+            <p>To move right press "d"</p>
+            <p>To launch a powerful kame hame ha press "t"</p>
+            <p>To perform a combo press "r"</p>
+            <p class="p_button"><input type="button" class="button2" value="X"></p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="bars_container">
+
+            <div class="life_bar_gogeta life_bar_dad">
+                <div class="bar bar_gogeta"></div>
+            </div>
+            <span>45</span>
+        
+            <div class="life_bar_janemba life_bar_dad">
+                <div class="bar bar_janemba"></div>
+            </div>
+
+        </div>
+        <img class="personaje" id="personaje1" src="./gifs/gogeta/304px-DBFZ_SSB_Gogeta_color1.png" alt="niño">
+        <img class="personaje" id="personaje2" src="./gifs/janemba/volteado/image (20).png" alt="niño">
+
+    </div>
+    <div class="modal">
+        <p class="resultado"></p>
+        <button class="button">Play again!</button>
+    </div>
+</body>
+<script src="./gogetaMoving.js"></script>
+<script src="./actions.js"></script>
+<script src="./janembaMoving.js"></script>
+
+</html>
